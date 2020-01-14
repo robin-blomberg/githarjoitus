@@ -3,12 +3,12 @@ package fi.academy.Main;
 public class Person {
     String address;
     String city;
-    String postcode;
+    Integer postcode;
 
     public Person() {
     }
 
-    public Person(String address, String city, String postcode) {
+    public Person(String address, String city, Integer postcode) {
         this.address = address;
         this.city = city;
         this.postcode = postcode;
@@ -30,11 +30,11 @@ public class Person {
         this.city = city;
     }
 
-    public String getPostcode() {
+    public Integer getPostcode() {
         return postcode;
     }
 
-    public void setPostcode(String postcode) {
+    public void setPostcode(Integer postcode) {
         this.postcode = postcode;
     }
 
